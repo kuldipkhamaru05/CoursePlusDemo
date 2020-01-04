@@ -1,0 +1,21 @@
+.inner-footer{
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-between;
+	padding-top: 30px;
+	border-top: 1px solid #ccc;
+	margin-top: 70px;
+	color: #656565;
+	.foot-social{
+		display: flex;
+		flex-wrap: wrap;
+		align-items:center;
+		li{
+			margin-right: 12px;
+			&:last-child{
+				margin-right: 0;
+			}
+		}
+	}
+}
